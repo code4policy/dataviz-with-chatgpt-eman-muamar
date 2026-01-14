@@ -1,5 +1,7 @@
 # Dataviz With GPT
 
+Done by Jonathan and Eman 
+
 ## Learning Objectives
 
 Students will be able to:
@@ -49,7 +51,7 @@ Use your knowledge of the vocabulary of HTML, CSS and JS to prompt ChatGPT. Your
 ### Part 3: Reflect
 
 1. Make a new file called `dashboard.html`
-2. Ask the llm to load `311_boston_data.csv` data directly and make a bar chart of the number of complaints over time within the year. 
+2. Ask the llm to load `boston_311_2025_raw.csv` data directly and make a bar chart of the number of complaints over time within the year. 
 3. Ask the llm to make a dropbox box that lets you filter by complaint type.
 4. Add more interactive elements of your choice (ex: hover effects, filter by other columns, etc. )
 

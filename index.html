@@ -1,1 +1,21 @@
-<!-- Your HTML goes here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Boston 311 Calls - Top 10 Reasons</title>
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+	<h1>Enforcement & Abandoned Vichcle are the Top Reasons for 311 Calls in Boston (2025)</h1>
+	<p style="font-size:1.3em; font-weight:bold; margin-bottom:24px; color:#888;">The Top 10 Most Common Issues Reported in 2025</p>
+	<div style="text-align:left; margin: 24px 0 24px 0;">
+		<button id="show-all-btn" style="font-size: 1.1em; padding: 10px 28px; border-radius: 6px; background: #1976d2; color: #fff; border: none; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: background 0.2s;">Show All Reasons</button>
+	</div>
+	<div id="chart_311" style="width: 100%; min-height: 600px;"></div>
+	<footer id="attribution" style="margin-top:24px; text-align:center; color:#888; font-size:1em;">
+		Chart by Jonathan and Eman. Data source: <a href="https://www.boston.gov/departments/boston-311" target="_blank">Boston 311</a>
+	</footer>
+	<script src="answers/script.js"></script>
+</body>
+</html>

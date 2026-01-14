@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #f8fafd;
+    color: #222;
+    margin: 30px;
+}
+
+h1#headline {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+    color: #1976d2;
+}
+
+#subheadline {
+    font-size: 1.2em;
+    color: #888;
+    margin-bottom: 24px;
+}
+
+#chart_time {
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 32px;
+}
+
+#attribution {
+    text-align: center;
+    color: #888;
+    font-size: 1em;
+    margin-top: 40px;
+}
+
+.d3-tooltip {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #888;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 1.1em;
+    color: #222;
+    pointer-events: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    z-index: 10;
+    display: none;
+}
